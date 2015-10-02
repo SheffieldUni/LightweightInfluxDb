@@ -11,7 +11,7 @@ namespace LightweightInfluxDb
     {	
 	    public string Name { get; set; }
 	
-    	public Dictionary<string, string> Tags { get; set; }
+    	public SortedDictionary<string, string> Tags { get; set; }
 	
 	    public List<string> Fields { get; set; }
 	
